@@ -10,6 +10,7 @@ namespace CricketManager.UI.ManagerSelection
     public class ManagerSelectionController : MonoBehaviour
     {
         [SerializeField] private ManagerSelectionView view;
+        // TODO: Load manager ScriptableObjects from a database or Resources folder
         [SerializeField] private List<ManagerSO> managers = new();
 
         private int _currentIndex;

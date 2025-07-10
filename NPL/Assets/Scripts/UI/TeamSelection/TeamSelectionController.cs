@@ -10,6 +10,7 @@ namespace CricketManager.UI.TeamSelection
     public class TeamSelectionController : MonoBehaviour
     {
         [SerializeField] private TeamSelectionView view;
+        // TODO: Load team ScriptableObjects dynamically
         [SerializeField] private List<TeamSO> teams = new();
 
         private int _currentIndex;
